@@ -1,0 +1,42 @@
+/* Style for the language modal */
+#languageModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.language-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.language-column {
+    float: left;
+    width: 30%;
+    margin-right: 5px;
+}
+
+.language-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 196, 12);
+    color: #fff;
+    cursor: pointer;
+}
+
+.language-button:hover {
+    background-color: #b31b1b;
+}
